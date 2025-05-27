@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional portfolio of Lea mae Madrio - IT Specialist with hardware expertise">
+  <title>lea's portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>lea</h1>
+      </div>
+      <div class="nav-right">
+        <button id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+        </button>
+        <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About</a></li>
+          <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a></li>
+          <li><a href="#skills" class="nav-link"><i class="fas fa-tools"></i> Skills</a></li>
+          <li><a href="#activities" class="nav-link"><i class="fas fa-running"></i> Activities</a></li>
+          <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="section hero-section">
+      <div class="container intro">
+        <div class="profile-image-container">
+          <img src="leapropic.jpg" alt="Lea Mae Madrio" class="profile-image">
+          <div class="image-border"></div>
+        </div>
+        <div class="intro-text">
+          <h2>Hi, I'm <span class="highlight">Lea mae Madrio</span> </h2>
+          <p class="lead">Specializing in hardware services with a passion for sports and technology.</p>
+          <div class="social-links">
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title"><i class="fas fa-graduation-cap section-icon"></i> Education</h2>
+        <div class="education-item">
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p class="institution">Bohol Island State University</p>
+          <p class="duration">2021 - 2025</p>
+          <p class="description">Specialized in hardware systems and network infrastructure.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title"><i class="fas fa-tools section-icon"></i> Technical Skills</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>Hardware Services</h3>
+            <ul class="skill-list">
+              <li><i class="fas fa-check-circle"></i> PC Assembly & Disassembly</li>
+              <li><i class="fas fa-check-circle"></i> Hardware Troubleshooting</li>
+              <li><i class="fas fa-check-circle"></i> Network Cabling</li>
+              <li><i class="fas fa-check-circle"></i> Device Maintenance</li>
+              <li><i class="fas fa-check-circle"></i> Peripheral Installation</li>
+              <li><i class="fas fa-check-circle"></i> System Diagnostics</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Additional Skills</h3>
+            <ul class="skill-list">
+              <li><i class="fas fa-check-circle"></i> Basic Network Configuration</li>
+              <li><i class="fas fa-check-circle"></i> Technical Documentation</li>
+              <li><i class="fas fa-check-circle"></i> Customer Support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="activities" class="section">
+      <div class="container">
+        <h2 class="section-title"><i class="fas fa-running section-icon"></i> Activities & Sports</h2>
+        <div class="activities-grid">
+          <div class="activity-card">
+            <i class="fas fa-running activity-icon"></i>
+            <h3>Track and Field</h3>
+            <p>Competitive sprinter with regional competition experience.</p>
+          </div>
+          <div class="activity-card">
+            <i class="fas fa-baseball-ball activity-icon"></i>
+            <h3>Softball</h3>
+            <p>Team player with strong batting and fielding skills.</p>
+          </div>
+          <div class="activity-card">
+            <i class="fas fa-volleyball-ball activity-icon"></i>
+            <h3>Volleyball</h3>
+            <p>Versatile player experienced in multiple positions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title"><i class="fas fa-envelope section-icon"></i> Contact Me</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <p><i class="fas fa-phone"></i> <a href="tel:+639670212132">+63 967 021 2132</a></p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:leamae.madrio@bisu.edu.ph">leamae.madrio@bisu.edu.ph</a></p>
+            <p><i class="fas fa-map-marker-alt"></i> Guinacot Guindulman Bohol</p>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; <span id="year"></span> Lea mae Madrio. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
